@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-skeletal-trabecular-bone-score-tbs-skill",
+  "version": "1.0.0",
+  "description": "Lumbar spine Trabecular Bone Score (TBS) microarchitectural texture evaluation & FRAX fracture risk adjustor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_trabecular_bone_score_frax",
+      "description": "Lumbar spine Trabecular Bone Score (TBS) microarchitectural texture evaluation & FRAX fracture risk adjustor.",
+      "sample_input": {
+        "tbs_score": 1.195,
+        "dxa_l1_l4_t_score": -1.4,
+        "base_frax_mof_pct": 8.2,
+        "age_years": 65
+      }
+    }
+  ]
+}
